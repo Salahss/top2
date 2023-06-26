@@ -40,3 +40,4 @@ Route::get('/about', [SiteController::class, 'about'])->name('about');
 Route::get('/contact', [SiteController::class, 'contact'])->name('contact');
 Route::get('/services', [SiteController::class, 'services'])->name('services');
 
+
